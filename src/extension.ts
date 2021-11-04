@@ -15,7 +15,7 @@ export function activate(context: vscode.ExtensionContext) {
         await sync(rest);
         vscode.window.showInformationMessage("你已成功为公益事业 +1s!");
       } catch (error) {
-        vscode.window.showErrorMessage(error as string);
+        vscode.window.showErrorMessage(error.message);
       }
       pending = false;
     }
