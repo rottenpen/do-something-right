@@ -2,7 +2,7 @@
   "name": "do-something-right",
   "displayName": "do-something-right",
   "description": "Manjusaka 独家公益刷题插件",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "publisher": "do-something-right",
   "repository": {
     "url": "https://github.com/rottenpen/do-something-right"
@@ -20,8 +20,14 @@
   "contributes": {
     "commands": [
       {
-        "command": "do-some-right.sync",
-        "title": "同步到公益项目"
+        "command": "do-something-right.sync",
+        "title": "同步到公益项目",
+        "category": "LeetCode"
+      },
+      {
+        "command": "do-something-right.getDaily",
+        "title": "获取每日一题",
+        "category": "LeetCode"
       }
     ],
     "configuration": [
