@@ -2,7 +2,7 @@
   "name": "do-something-right",
   "displayName": "do-something-right",
   "description": "Manjusaka 独家公益刷题插件",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "publisher": "do-something-right",
   "repository": {
     "url": "https://github.com/rottenpen/do-something-right"
@@ -26,7 +26,7 @@
       },
       {
         "command": "do-something-right.getDaily",
-        "title": "获取每日一题",
+        "title": "获取每日一题 daily",
         "category": "LeetCode"
       }
     ],

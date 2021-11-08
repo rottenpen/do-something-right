@@ -47,7 +47,7 @@ export class CustomCodeLensProvider implements vscode.CodeLensProvider {
       codeLens.push(
         new vscode.CodeLens(range, {
           title: "同步公益",
-          command: "do-some-right.sync",
+          command: "do-something-right.sync",
           arguments: [document.uri],
         })
       );
