@@ -11,5 +11,5 @@
 ## changelog
 
 ### [0.0.5]
-1. 自动获得每日一题，请通过 command + shift + p, 输入 daily 找到每日一题。
+1. 自动获得每日一题，请通过 command + shift + p, 输入 `每日一题` 。
 2. 接入 github Action
