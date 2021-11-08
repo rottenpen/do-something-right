@@ -21,7 +21,7 @@ export default async () => {
         `今天每日一题是：${data.data.todayRecord[0].question.frontendQuestionId} ${data.data.todayRecord[0].question.titleCn}`,
         '打开题目吧',
       )
-      .then(ele => {
+      .then(_ele => {
         vscode.commands.executeCommand('leetcode.searchProblem');
       });
   } catch (error) {
