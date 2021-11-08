@@ -8,3 +8,8 @@
 
 ![image](https://user-images.githubusercontent.com/12029924/139771597-e80e2dd9-83cf-4285-aa3c-b74c327bfaa0.png)
 
+## changelog
+
+### [0.0.5]
+1. 自动获得每日一题，请通过 command + shift + p, 输入 daily 找到每日一题。
+2. 接入 github Action
