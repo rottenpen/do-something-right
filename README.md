@@ -10,6 +10,16 @@
 
 ## changelog
 
+### [0.0.7]
+
+1. 新增每日一题 status bar
+2. 上传的 markdown code 会跟根据 setting.json 选择显示语言
+
+### [0.0.6]
+
+fix bug
+
 ### [0.0.5]
+
 1. 自动获得每日一题，请通过 command + shift + p, 输入 `每日一题` 。
 2. 接入 github Action

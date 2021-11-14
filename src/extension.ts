@@ -2,8 +2,9 @@ import * as vscode from 'vscode';
 import { codeLensController } from './codelen/CodeLensController';
 import { sync } from './command/sync';
 import getDaily from './command/getDaily';
+import createDailyStatusBar from './statusbar/createDailyStatusBar';
 let pending = false;
-export function activate(context: vscode.ExtensionContext) {
+export async function activate(context: vscode.ExtensionContext) {
   let disposable = vscode.commands.registerCommand('do-something-right.sync', async rest => {
     if (pending) {
       vscode.window.showWarningMessage('正在同步...');
@@ -20,6 +21,7 @@ export function activate(context: vscode.ExtensionContext) {
   });
   let dailyCommand = vscode.commands.registerCommand('do-something-right.getDaily', getDaily);
   context.subscriptions.push(disposable, codeLensController, dailyCommand);
+  context.subscriptions.push(await createDailyStatusBar());
 }
 
 export function deactivate() {}
