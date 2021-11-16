@@ -1,4 +1,9 @@
-# do-some-right
+<h1 align="center">VSCode-Do Something Right</h1>
+
+
+<div align="center">
+  <img src="/media/dosomethingright.png" />
+</div>
 
 [![Marketplace](https://img.shields.io/visual-studio-marketplace/v/do-something-right.do-something-right.svg?label=Marketplace&style=for-the-badge&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=do-something-right.do-something-right)
 [![Installs](https://img.shields.io/visual-studio-marketplace/i/do-something-right.do-something-right.svg?style=for-the-badge)](https://marketplace.visualstudio.com/items?itemName=do-something-right.do-something-right)
